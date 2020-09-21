@@ -1,10 +1,12 @@
 import React from 'react';
+import { Title } from './styles';
 
 export default function Main() {
   return (
-    <div>
+    <Title>
      Main
-    </div>
+     <span>Hello World</span>
+    </Title>
   );
 }
 
